@@ -6,8 +6,8 @@
     "updateCheckerProfiles": [
       {
         "priority": 0,
-        "otaBaseUrl": "",
-        "apiPart": "",
+        "otaBaseUrl": "https://gfwsl.geforce.com/",
+        "apiPart": "nvidia_web_services/controller.gfeclientcontent.NG.php/com.nvidia.services.GFEClientContent_NG.getDispDrvrByDevid/",
         "parameterSeparator": "",
         "maxDaysBetweenReleases": 60,
         "networkConfig": {
@@ -57,8 +57,8 @@
     "updateCheckerProfiles": [
       {
         "priority": 0,
-        "otaBaseUrl": "",
-        "apiPart": "",
+        "otaBaseUrl": "https://gfwsl.geforce.com/",
+        "apiPart": "nvidia_web_services/controller.gfeclientcontent.NG.php/com.nvidia.services.GFEClientContent_NG.getDispDrvrByDevid/",
         "parameterSeparator": "",
         "maxDaysBetweenReleases": 60,
         "networkConfig": {
