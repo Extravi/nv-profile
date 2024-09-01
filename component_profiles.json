@@ -108,9 +108,9 @@
     "updateCheckerProfiles": [
       {
         "priority": 0,
-        "otaBaseUrl": "",
-        "apiPart": "",
-        "parameterSeparator": "",
+        "otaBaseUrl": "https://ota.nvidia.com",
+        "apiPart": "/NvApp/v1.0/self-update/",
+        "parameterSeparator": "?",
         "maxDaysBetweenReleases": 60,
         "networkConfig": {
           "httpProxy": "",
