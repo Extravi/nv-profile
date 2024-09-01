@@ -550,5 +550,51 @@
     "postProcessingProfiles": [
       {}
     ]
+  },
+  {
+    "componentName": "fd610678-8bc1-45fe-a594-db78a542d7f1",
+    "pluginModuleName": "UpdateFrameworkPlugin.dll",
+    "autoUpdateSchedule": "",
+    "updateCheckerProfiles": [
+      {
+        "priority": 0,
+        "otaBaseUrl": "",
+        "apiPart": "",
+        "parameterSeparator": "",
+        "maxDaysBetweenReleases": 60,
+        "networkConfig": {
+          "httpProxy": "",
+          "usernameProxy": "",
+          "passwordProxy": "",
+          "proxyNtlm": false,
+          "userAgent": ""
+        }
+      }
+    ],
+    "downloaderProfiles": [
+      {
+        "downloadConfig": {
+          "threadCount": 5,
+          "maxStallTime": 3,
+          "maxRetryCount": 10,
+          "retryDelay": 1,
+          "checksumExpect": "",
+          "checksumType": "sha512",
+          "retryDelayMultiplier": 1,
+          "maxFailureCount": 3,
+          "installationKey": "Computer\\HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\{B2FE1952-0186-46C3-BAEC-A80AA35AC5B8}_ChatRTX",
+          "networkConfig": {
+            "httpProxy": "",
+            "usernameProxy": "",
+            "passwordProxy": "",
+            "proxyNtlm": false,
+            "userAgent": ""
+          }
+        }
+      }
+    ],
+    "postProcessingProfiles": [
+      {}
+    ]
   }
 ]
